@@ -1,0 +1,98 @@
+
+a {
+  font-weight: 500;
+  color: #f1e4e7;
+  text-decoration: inherit;
+}
+a:hover {
+  font-weight: 600;
+  color: white;
+}
+
+h1 {
+  /* font-size: 1.2em; */
+  font-size:xx-large;
+  font-family: Comic Relief;
+  color: #5b202b;
+  /* line-height: 1.1; */
+}
+h2 {
+  font-size: x-large;
+  /* line-height: 1.1; */
+}h3 {
+  font-size: large;
+  /* line-height: 1.1; */
+}
+.page-banner2 {
+  width: 98%;
+  /* padding: 2rem 1rem; */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-bottom: 2rem;
+}
+
+.column3 {
+  max-width: 49%;
+  flex: 1 1 50%;
+  align-items: stretch;
+  padding-left: 0.5vw;  
+  padding-top: 0.5vw;
+}
+
+.column2 {
+  flex: 1 1 33.33%;
+  padding-left: 1rem;
+}
+
+.text-column h1 {
+  font-size: calc(1.5rem + 1.3vw);
+  font-weight: bold;
+  font-family: Comic Relief;
+}
+
+.text-column h2 {
+  margin: 0.3rem 0;
+  font-weight: normal;
+}
+
+.rounding {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .column3,
+  .column2 {
+    flex: 1 1 100%;
+  }
+
+  .text-column {
+    text-align: left;
+  }
+}
+/* FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+          flex-direction: column-reverse;
+  background: var(--main-vino-color);
+  color: var(--main-rosa-color);
+  justify-content: center;
+}
+.page-footer a{
+  color: var(--main-rosa-color);
+}
+.page-footer a:hover {
+  color: #8f8f8f;
+}
+
