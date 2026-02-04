@@ -22,7 +22,7 @@ const settings = {
     
     <div className="slider-container">        
       <div>
-          <h1>Gaudeix del servei de cafeteria. Tasta el nostre café...</h1>
+          <h1>Gaudeix del servei de cafeteria. Tasta el nostre cafè...</h1>
           <h2>Ideal per gaudir d'una pausa.</h2>
         </div>
       <Slider {...settings}>

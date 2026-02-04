@@ -9,8 +9,11 @@ import patates from "../assets/patates.jpg";
 import brocoli from "../assets/brocoli.jpg";
 import carrot from "../assets/Carrot.jpg";
 import fideua from "../assets/fideua.jpg";
-import crestes from "../assets/crestes.jpg";
-import salmo from "../assets/salmo.jpg";
+import Vitrina from "../assets/Vitrina.jpg";
+import Codillo from "../assets/Codillo.jpg";
+import Arrozleche from "../assets/Arrozleche.jpg";
+import Lasaña from "../assets/Lasaña.jpg";
+import Cremaverd from "../assets/Cremaverd.jpg";
 
 function Menudiari() {
 const settings = {
@@ -27,7 +30,7 @@ const settings = {
     <div className="slider-container">        
       <div>
           <h1>El plat fort... el nostre menú diari!</h1>
-          <h2>Elaborat diàriament amb productes de proximitat... les patates fregides naturals i tots els postres casolans.</h2>
+          <h2>Elaborat diàriament amb productes de proximitat... les patates fregides naturals i totes les postres casolanes.</h2>
         </div>
       <Slider {...settings}>
 
@@ -69,14 +72,32 @@ const settings = {
         </div>
        <div>
           <img className="img-general"
-            src={crestes}
-            alt="Crestes croquetes empanadillas"
+            src={Vitrina}
+            alt="Vitrina postres casolanes"
           />
         </div>
         <div>
           <img className="img-general"
-            src={salmo}
-            alt="peix salmo"
+            src={Codillo}
+            alt="Codillo galta carrillera"
+          />
+        </div>
+        <div>
+          <img className="img-general"
+            src={Arrozleche}
+            alt="Arroz con leche casero"
+          />
+        </div>
+        <div>
+          <img className="img-general"
+            src={Lasaña}
+            alt="Lasaña"
+          />
+        </div>
+        <div>
+          <img className="img-general"
+            src={Cremaverd}
+            alt="Crema verduras"
           />
         </div>
       </Slider>

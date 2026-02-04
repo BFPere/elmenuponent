@@ -7,6 +7,8 @@ import exterior from "../assets/exterior.jpg";
 import Nata from "../assets/Nata.jpg";
 import cafe from "../assets/cafe.jpg";
 import interior2 from "../assets/interior2b.jpg";
+import Minicafe from "../assets/Minicafe.jpg";
+import Codillo from "../assets/Codillo.jpg";
 
 function Inici() {
 const settings = {
@@ -23,7 +25,7 @@ const settings = {
     <div className="slider-container">        
       <div>
           <h1>Prova el millor menú diari, casolà i al centre de Granollers</h1>
-          <h2>Al nostre local hi trobaràs el millor café...unes ofertes per esmorzar sense competència i el millor menú diari... Com a casa!</h2>
+          <h2>Al nostre local hi trobaràs el millor cafè...unes ofertes per esmorzar sense competència i el millor menú diari... Com a casa!</h2>
         </div>
       <Slider {...settings}>
 
@@ -51,7 +53,18 @@ const settings = {
             alt="Nata"
           />
         </div>
-
+        <div>
+          <img className="img-general"
+            src={Minicafe}
+            alt="Entrepa mini"
+          />
+        </div>
+        <div>
+          <img className="img-general"
+            src={Codillo}
+            alt="Codillo galta"
+          />
+        </div>
       </Slider>
       <body style={{ 
           backgroundImage: `url(${background})`, 

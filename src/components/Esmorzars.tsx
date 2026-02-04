@@ -4,11 +4,11 @@ import "../css/Slickpere.css"
 import Slider from "react-slick";
 import background from "../assets/portada.jpg";
 import pesmorzar from "../assets/pissarraesmorzar.jpg";
-import interior from "../assets/interiorb.jpg";
-import croissant from "../assets/croissant.jpg";
+import Vitrinaesmorzar from "../assets/Vitrinaesmorzar.jpg";
+import Minicafe from "../assets/Minicafe.jpg";
 import truita from "../assets/truita.jpg";
 import fruitsecs from "../assets/fruitsecs.jpg";
-import planxat from "../assets/planxat.jpg";
+import Croissantcafe from "../assets/Croissantcafe.jpg";
 
 function Esmorzars() {
 const settings = {
@@ -37,14 +37,14 @@ const settings = {
         </div>
         <div>
           <img className="img-general"
-            src={interior}
-            alt="interior"
+            src={Vitrinaesmorzar}
+            alt="Vitrina esmorzars"
           />
         </div>
         <div>
           <img className="img-general"
-            src={croissant}
-            alt="croissant"
+            src={Minicafe}
+            alt="Oferta entrepa mini"
           />
         </div>
         <div>
@@ -61,8 +61,8 @@ const settings = {
         </div>
         <div>
           <img className="img-general"
-            src={planxat}
-            alt="planxat"
+            src={Croissantcafe}
+            alt="Croissant"
           />
         </div>
 

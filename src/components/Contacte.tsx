@@ -11,6 +11,9 @@ const Contacte: React.FC = () => {
         <h2>Carrer Ponent, 12</h2>
         <h2>08401 Granollers</h2>
         <h2>+34 623 01 31 33</h2>
+        <br></br>
+        <h2>dilluns a divendres no festius</h2>
+        <h2>de 7:30h a 16:00h</h2>        
       </div>
 
       <div className="map">
