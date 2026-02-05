@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Inici from "./components/Inici";
 import Cafeteria from "./components/Cafeteria";
@@ -15,7 +15,7 @@ function App() {
 
      <>  
    
-        <BrowserRouter>
+        <HashRouter>
           <Navbar />
           <Routes>
             <Route path="/Inici" element={<Inici />} />
@@ -26,7 +26,7 @@ function App() {
             <Route path="*" element={<Navigate to="/Inici" />} /> // per defecte
           </Routes> 
           <Footer />
-        </BrowserRouter>
+        </HashRouter>
         
     </>
 
