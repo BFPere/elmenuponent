@@ -1,6 +1,7 @@
 .img-general {
+  margin-top: 2.5vh;
   max-width: 50vw;
-  max-height: 30vh;
+  max-height: 40vh;
   border-radius:40px 40px 40px 40px;
   float: right;
   border-width: 5px;
@@ -10,8 +11,9 @@
 }
 
 .img-general:hover {
+  margin-top: 2.5vh;
   max-width: 50vw;
-  max-height: 30vh;
+  max-height: 40vh;
   border-radius:40px 40px 40px 40px;
   float: right;
   border-width: 5px;
