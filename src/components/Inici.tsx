@@ -50,17 +50,13 @@ function Inici() {
 
   return (
     <>
-      {/* BACKGROUND */}
-      <div
-        // className="hero-background"
-        // style={{ backgroundImage: `url(${background})` }}
-      >
+      <div>
         <div className="slider-container">
           <div className="slider-text">
             <h1>Prova el millor menú diari, casolà i al centre de Granollers</h1>
             <h2>
               Al nostre local hi trobaràs el millor cafè... unes ofertes per esmorzar
-              sense competència i el millor menú diari... Com a casa!
+              sense competència i un menú diari... com a casa!
             </h2>
           </div>
 
@@ -126,7 +122,7 @@ function Inici() {
                 onClick={() =>
                   setLightboxData({
                     img: Minicafe,
-                    text: "Esmorzars ràpids però de qualitat"
+                    text: "Esmorzars de qualitat al millor preu"
                   })
                 }
               />
@@ -139,7 +135,7 @@ function Inici() {
                 onClick={() =>
                   setLightboxData({
                     img: Codillo,
-                    text: "Aquest és un plat molt bo 😋"
+                    text: "Plats elaborats per llepar-se els dits 😋"
                   })
                 }
               />

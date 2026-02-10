@@ -1,14 +1,14 @@
 
 h1 {
   padding-left: 1vw;
-  font-size: calc(0.9rem + 1.5);
+  font-size: calc(1.2rem + 0.9vw);
   font-weight: bold;
   font-family: Comic Relief;
   color: #5b202b;
 }
 h2 {
   padding-left: 1vw;
-  font-size: calc(0.6rem + 1.2vw);
+  font-size: calc(0.9rem + 0.9vw);
   font-weight:normal;
   font-family: Comic Relief;
   color: #333333;
@@ -43,8 +43,6 @@ h2 {
 .img-pissarra:hover {
   border-color: #a9112d;
 }
-
-
 
 
 /*Text del mapa */

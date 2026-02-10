@@ -9,20 +9,16 @@ a:hover {
   color: white;
 }
 
-h1 {
-  /* font-size: 1.2em; */
+/* h1 {
   font-size:xx-large;
   font-family: Comic Relief;
   color: #5b202b;
-  /* line-height: 1.1; */
 }
 h2 {
   font-size: x-large;
-  /* line-height: 1.1; */
 }h3 {
   font-size: large;
-  /* line-height: 1.1; */
-}
+} */
 .page-banner2 {
   width: 98%;
   /* padding: 2rem 1rem; */
